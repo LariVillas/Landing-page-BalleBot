@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+   font-size: 100%;
+   background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%); 
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.cabecalho-img{
+    height: 72px;
+}
+
+.cabecalho-nav{
+    display: flex;
+    gap: 32px;
+}
+
+.cabecalho-nav-itens{
+    color: #FFF2E7;
+    font-family: 'sarala', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    font-style: normal;
+}
+
+.principal{
+    margin-bottom: 48px;
+    border-top: 0.4px solid #FFF2E7;
+}
+
+.principal-section1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.principal-section1-div{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.principal-section1-div-h1{
+    color: #FFF2E7;
+    font-family: 'Righteous';
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 79px;
+}
+
+.principal-section1-div-h2{
+    color: #ECD6C4;
+    font-family: 'Sarala', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 39px;
+}
+
+.principal-section1-div-botao{
+    background-color: #ECD6C4;
+    color: #2F2325;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    border-radius: 20px;
+    width: 180px;
+    height:60px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+}
+
+.principal-section1-div-botao:hover{
+    cursor: pointer;
+    filter: brightness(0.7);
+}
+
+.cabecalho-section1-img{
+    height: 430px;
+}
+
+.principal-section2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.principal-section2-h3{
+    font-family: 'Righteous';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: #FFF2E7;
+    border-top: 0.4px solid #FFF2E7;
+    padding-top: 48px;
+    margin-bottom: 16px;
+}
+
+.principal-section2-p{
+    font-family: 'Sarala';
+    color: #ECD6C4;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.roda-pe{
+    border-top: 0.4px solid #FFF2E7;
+    padding: 32px;
+}
+
+.roda-pe-img{
+    height: 48px;
+    display: block;
+    margin: 0 auto;
+}
